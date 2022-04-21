@@ -1,0 +1,98 @@
+body {
+ padding: 0;
+ margin: 0;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 800;
+ color: #000;
+ font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; /* позиционирование по центру */
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header {
+    background: url('../img/background.png') no-repeat center top / cover;
+    padding-top: 41px;
+    padding-bottom: 322px;
+}
+
+header a {
+    color: black;
+}
+
+.logo {
+    margin-right: 150px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 170px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 217px;
+    margin-bottom: 318px;
+
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.offer h1 {
+    font-size: 90px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #000;
+    width: 238px;
+}
